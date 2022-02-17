@@ -27,7 +27,7 @@
  * Author URI: https://github.com/OssianEriksson
  * Licence: GLP-3.0
  *
- * @package ftek/spidera-asp
+ * @package ftek/info-asp
  */
 
 namespace Ftek\InfoAsp;
