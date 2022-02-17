@@ -18,7 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
- * Plugin Name: Spidera-asp
+ * Plugin Name: Info-asp
  * Description: WordPress plugin advertising Spidera.
  * Version: 1.0.0
  * Text Domain: spidera-asp
@@ -76,7 +76,7 @@ if ( ! is_admin() ) {
 				'info-asp-popup',
 				'php',
 				array(
-					'imgUrl' => plugins_url( '/img/affisch-1.png', PLUGIN_FILE ),
+					'imgUrl' => plugins_url( '/img/aspa info.png', PLUGIN_FILE ),
 				)
 			);
 		}

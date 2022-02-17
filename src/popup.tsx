@@ -38,10 +38,7 @@ function Popup(): JSX.Element {
 	}
 
 	return (
-		<Modal
-			onRequestClose={closeModal}
-		>
-			
+		<Modal onRequestClose={closeModal}>
 			<img className="asp-img" src={php.imgUrl} />
 		</Modal>
 	);
