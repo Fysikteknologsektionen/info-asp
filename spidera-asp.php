@@ -30,7 +30,7 @@
  * @package ftek/spidera-asp
  */
 
-namespace Ftek\SpideraAsp;
+namespace Ftek\InfoAsp;
 
 if ( ! defined( 'WPINC' ) ) {
 	exit;
@@ -55,25 +55,25 @@ if ( ! is_admin() ) {
 		function() {
 			$asset = require PLUGIN_ROOT . '/build/popup.tsx.asset.php';
 			wp_enqueue_style(
-				'spidera-asp-popup',
+				'info-asp-popup',
 				plugins_url( '/build/popup.tsx.css', PLUGIN_FILE ),
 				array( 'wp-components' ),
 				$asset['version']
 			);
 			wp_enqueue_script(
-				'spidera-asp-popup',
+				'info-asp-popup',
 				plugins_url( '/build/popup.tsx.js', PLUGIN_FILE ),
 				$asset['dependencies'],
 				$asset['version'],
 				true
 			);
 			wp_set_script_translations(
-				'spidera-asp-popup',
-				'spidera-asp',
+				'info-asp-popup',
+				'info-asp',
 				PLUGIN_ROOT . '/languages'
 			);
 			wp_localize_script(
-				'spidera-asp-popup',
+				'info-asp-popup',
 				'php',
 				array(
 					'imgUrl' => plugins_url( '/img/affisch-1.png', PLUGIN_FILE ),
