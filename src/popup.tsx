@@ -39,13 +39,9 @@ function Popup(): JSX.Element {
 
 	return (
 		<Modal
-			title={__(
-				'OBS: Change of location: FL51! Visit the asp of Spidera!',
-				'spidera-asp'
-			)}
 			onRequestClose={closeModal}
 		>
-			<p>{__('Bring your own computer!', 'spidera-asp')}</p>
+			
 			<img className="asp-img" src={php.imgUrl} />
 		</Modal>
 	);
