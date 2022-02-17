@@ -1,6 +1,6 @@
-# spidera-asp
+# info-asp
 
-WordPress plugin advertising Spidera.
+WordPress plugin advertising Info.
 
 ## Getting Started
 
